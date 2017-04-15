@@ -55,5 +55,4 @@ index f72a392..d8a8edd 100644 (file)
 +    pos %= FD_SECTOR_LEN;
 +    fdctrl->fifo[pos] = value;
      if (fdctrl->data_pos == fdctrl->data_len) {
-         /* We now have all parameters
-          * and will be able to treat the command
+        
